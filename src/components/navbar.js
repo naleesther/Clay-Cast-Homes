@@ -14,7 +14,7 @@ const openNav =()=>{
     <div>
       <nav className={`navbar ${open ? "active" : ""}`}>
         <div className="navTop">
-          <img className="logo" src={Logo} />
+          <img className="logo" src={Logo} alt='logo'/>
 
           <div>
             <div className="menu-icon" onClick={openNav}>

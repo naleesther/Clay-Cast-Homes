@@ -45,9 +45,9 @@ function OurStory() {
         </div>
 
         <div className="back-profile">
-          <img src={Background} className="background" />
+          <img src={Background} className="background" alt="background"/>
         </div>
-        <img src={Profile} className="profile" />
+        <img src={Profile} className="profile" alt="profile"/>
         <div className="buttongroup">
           <ButtonGroup className="b-group">
             {types.map((type) => (
@@ -84,19 +84,19 @@ function OurStory() {
               </div>
               <div className="contacts-icon">
                 <div className="call">
-                  <img src={Call} className="icons-contact" />
+                  <img src={Call} className="icons-contact" alt="call"/>
                   <span className="contact-texts">
                     +234 81-9015879 / 70-8387377
                   </span>
                 </div>
                 <div className="email">
-                  <img src={Email} className="icons-contact" />
+                  <img src={Email} className="icons-contact" alt="email"/>
                   <span className="contact-texts">
                     claycastproperties33@gmail.com
                   </span>
                 </div>
                 <div className="location">
-                  <img src={Location} className="icons-contact" />
+                  <img src={Location} className="icons-contact" alt="location"/>
                   <span className="contact-texts">Jos, Nigeria</span>
                 </div>
               </div>

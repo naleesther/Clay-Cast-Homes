@@ -49,17 +49,17 @@ function Herosection(){
         <div className="company">
           <h2 className="trustee">TRUSTED BY OVER 200+ COMPANIES</h2>
           <div className="companies">
-            <img src={Pipedrive} className="comp" />
-            <img src={Razorpay} className="comp" />
-            <img src={Rippling} className="comp" />
-            <img src={Attentive} className="comp" />
-            <img src={Sonos} className="sonos" />
-            <img src={Ghost} className="ghost" />
+            <img src={Pipedrive} className="comp" alt='pipedrive-image'/>
+            <img src={Razorpay} className="comp" alt='razorpay-image'/>
+            <img src={Rippling} className="comp" alt='rippling'/>
+            <img src={Attentive} className="comp" alt='attentive'/>
+            <img src={Sonos} className="sonos" alt='sonos'/>
+            <img src={Ghost} className="ghost" alt='ghost'/>
           </div>
         </div>
         <div className="hero-section">
           <div className="upper">
-            <img src={Ten} className="ten" />
+            <img src={Ten} className="ten" alt='ten'/>
             <h1 className="success">
               YEARS OF SUCCESSFUL <br /> WORK
               <span style={{ color: "#FF7D00" }}> IN THE MARKET</span>
@@ -95,28 +95,28 @@ function Herosection(){
                 <div className="tate">
                   <h2>MINI ESTATE IN UYO</h2>
                   <p>ENGINEERING</p>
-                  <img src={Tate} className="portfolio-images" />
+                  <img src={Tate} className="portfolio-images" alt='tate'/>
                 </div>
                 <div className="tate">
                   <h2>BLOCK OF FLATS</h2>
                   <p>INTERIOR</p>
-                  <img src={Flats} className="our-portfolio-images" />
+                  <img src={Flats} className="our-portfolio-images" alt='flats'/>
                 </div>
 
                 <div className="tate">
                   <h2>RESIDENTIAL PROPERTY</h2>
                   <p>ARCHITECTURE</p>
-                  <img src={Residential} className="our-portfolio-images" />
+                  <img src={Residential} className="our-portfolio-images" alt='residential'/>
                 </div>
                 <div className="tate">
                   <h2>SCHOOL BUILDING</h2>
                   <p>ARCHITECTURE</p>
-                  <img src={School} className="our-portfolio-images" />
+                  <img src={School} className="our-portfolio-images" alt='school'/>
                 </div>
                 <div className="tate">
                   <h2>3 BEDROOM FLAT</h2>
                   <p>CONSTRUCTION</p>
-                  <img src={Bedroom} className="portfolio-images" />
+                  <img src={Bedroom} className="portfolio-images" alt='bedroom'/>
                 </div>
               </div>
               <div className="view-more-button">
