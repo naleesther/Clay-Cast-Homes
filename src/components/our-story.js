@@ -1,5 +1,5 @@
 import "./our-story.css";
-import React, { useState } from "react";
+import  { useState } from "react";
 import styled from "styled-components";
 import Profile from "./img/profile image.png";
 import Background from "./img/profile background.png";

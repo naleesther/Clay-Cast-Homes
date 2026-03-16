@@ -1,4 +1,3 @@
-import React from "react";
 import "./herosection.css";
 
 export const BuildImages = ({ image, number,subtitle,text }) => {
