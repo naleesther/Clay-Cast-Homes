@@ -14,7 +14,7 @@ const openNav =()=>{
     <div>
       <nav className={`navbar ${open ? "active" : ""}`}>
         <div className="navTop">
-          <img className="logo" src={Logo} alt='logo'/>
+          <img className="logo" src={Logo} alt="logo" />
 
           <div>
             <div className="menu-icon" onClick={openNav}>
@@ -29,19 +29,21 @@ const openNav =()=>{
             </div>
             <ul className={`nav-element ${open ? "active" : ""}`}>
               <li className="nav-items">
-                <a className="home" href='#home'>HOME</a>
+                <a className="text-decoration: none; " href="#home">
+                  HOME
+                </a>
               </li>
               <li className="nav-items">
-                <a href='#about'>ABOUT</a>
+                <a href="#about" >ABOUT</a>
               </li>
               <li className="nav-items">
-                <a href='#portfolio'>PORTFOLIO</a>
+                <a href="#portfolio">PORTFOLIO</a>
               </li>
               <li className="nav-items">
-                <a href='#services'>SERVICES</a>
+                <a href="#services">SERVICES</a>
               </li>
               <li className="nav-items">
-                <a href='@href'>CONTACTS</a>
+                <a href="@href">CONTACTS</a>
               </li>
             </ul>
           </div>
