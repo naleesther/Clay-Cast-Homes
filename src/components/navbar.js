@@ -29,19 +29,19 @@ const openNav =()=>{
             </div>
             <ul className={`nav-element ${open ? "active" : ""}`}>
               <li className="nav-items">
-                <a className="home">HOME</a>
+                <a className="home" href='#home'>HOME</a>
               </li>
               <li className="nav-items">
-                <a>ABOUT</a>
+                <a href='#about'>ABOUT</a>
               </li>
               <li className="nav-items">
-                <a>PORTFOLIO</a>
+                <a href='#portfolio'>PORTFOLIO</a>
               </li>
               <li className="nav-items">
-                <a>SERVICES</a>
+                <a href='#services'>SERVICES</a>
               </li>
               <li className="nav-items">
-                <a>CONTACTS</a>
+                <a href='@href'>CONTACTS</a>
               </li>
             </ul>
           </div>

@@ -36,7 +36,7 @@ function Footer() {
 
         <div className="footer-content">
           <div>
-            <img src={Group} className="group-icon" alt="group-image"/>
+            <img src={Group} className="group-icon" alt="group"/>
             <span> 2023 Clay Cast Properties</span>
           </div>
           <p>Terms and Conditions</p>

@@ -47,8 +47,8 @@ function Herosection(){
         <div className="company">
           <h2 className="trustee">TRUSTED BY OVER 200+ COMPANIES</h2>
           <div className="companies">
-            <img src={Pipedrive} className="comp" alt='pipedrive-image'/>
-            <img src={Razorpay} className="comp" alt='razorpay-image'/>
+            <img src={Pipedrive} className="comp" alt='pipedrive'/>
+            <img src={Razorpay} className="comp" alt='razorpay'/>
             <img src={Rippling} className="comp" alt='rippling'/>
             <img src={Attentive} className="comp" alt='attentive'/>
             <img src={Sonos} className="sonos" alt='sonos'/>
